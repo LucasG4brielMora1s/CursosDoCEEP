@@ -1,58 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designer inspirador no CEEP</title>
+    <title>Designer Inspirado no CEEP</title>
+    <link rel="stylesheet" href="style.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 </head>
-
 <body>
-     <header>
-      <h1>CEEP- Sua plataforma de aprendizado</h1>
-      <nav>
-       <li><a href= "#curso">Curso</a></li>
-       <li><a href= "#artigo">Artigo</a></li>
-       <li><a href= "#contato">Contato</a></li>
+    <header>
+        <h1>CEEP - Sua plataforma de Aprendizado</h1>
+        <nav>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#artigos">Artigos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </nav>
+    </header>
+    <main>
+        <section id="cursos">
+            <h2>Curso em Destaque</h2>
+            <div class="card">
+                <h3>Curso de Sistemas</h3>
+                <p>Aprenda a criar sites incríveis com HTML, CSS e JavaScript</p>
 
-      </nav>
-     </header>
-
-     <main>
-        <section id="curso">
-           <h2>Curso em destaque</h2>
-           <div class="card">
-           <h3>Curso de Sistemas</h3>
-           <p>Aprenda a criar sites incriveis com HTML, CSS e JavaScript</p>
-  
-           <div class="card">
-            <h3>Curso de Química</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci magni doloribus assumenda delectus vel ad ea voluptatibus error at facilis, cumque illo quas aspernatur sapiente fugiat. Distinctio, error saepe!</p>
+            </div>
 
             <div class="card">
-            <h3>Curso de Farmacia</h3>
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim aperiam, nulla quos velit earum corporis illo provident itaque cum saepe tempore nesciunt voluptatibus ut hic, ad iure exercitationem officiis animi?</p>
+                <h3>Curso de Química</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repudiandae eveniet assumenda ducimus? Dolorem praesentium numquam libero eaque repudiandae natus officia dolore laborum corrupti, vitae facere quisquam odit quasi dolor!</p>
+                
+            </div>
 
-             <div class="card">
-            <h3>Curso de Agro Economia</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati esse voluptatem ipsam aspernatur veritatis. Quisquam quam facere fuga necessitatibus molestias minima, repudiandae debitis, libero ratione dolorem cum quaerat velit ea!</p>
+            <div class="card">
+                <h3>Curso de Farmácia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolores, eius quo odit animi explicabo ad similique mollitia, rerum ab ipsa id quaerat cumque inventore amet eaque laudantium, adipisci neque.</p>
+                
+            </div>
 
-             <div class="card">
-           <h3>Curso de Vestuário</h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum exercitationem obcaecati, deserunt vitae quo facilis quidem ipsum quam explicabo atque aut, tempore nesciunt blanditiis! Debitis ab maxime atque nisi.</p>
+            <div class="card">
+                <h3>Curso de Agro Economia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odio corrupti a similique cum harum dolores, dolorem nesciunt molestiae quis vero alias itaque veritatis. Et sed magni mollitia maiores totam!</p>
+                
+            </div>
 
-  
-           </div>
+            <div class="card">
+                <h3>Curso de Vestuário</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae excepturi recusandae tempore voluptatum cumque quia sequi deleniti obcaecati deserunt mollitia ut consectetur dolor, laborum ad hic natus minus fugit. Qui?</p>
+                
+            </div>
         </section>
-       </main>
-       <footer>
-         <p>&copy;2025 - CEEP - Todos os direitos reservados.</p>
-       </footer>
-       <script>
-        document.getElementById('contactForm').addEventListener ("submit", function(event){
-        event.preventDefault();alert('Mensagem enviada com sucesso!');this.reset();
+    </main>
+    <footer>
+        <p>&copy;2025 - CEEP - Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        document.getElementById('contactFrom').addEventListener("submit", function(event){
+            event.preventDefault();alert('Mensagem enviada com sucesso!');this.reset();
         });
-
-       </script>
-    
+    </script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </body>
 </html>
