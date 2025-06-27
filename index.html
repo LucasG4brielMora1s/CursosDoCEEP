@@ -9,11 +9,16 @@
 </head>
 <body>
     <header>
+        <a href="index.html" class="logo-link">
+            <img src="./img/android-chrome-512x512 (1).png" alt="Brasão CEEP" class="logo">
+        </a>
         <h1>CEEP - Sua plataforma de Aprendizado</h1>
         <nav>
-            <li><a href="./cursos.html">Cursos</a></li>
-            <li><a href="./artigo.html">Artigos</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+            <ul>
+                <li><a href="./cursos.html">Cursos</a></li>                                     
+                <li><a href="./artigos.html">Artigos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -31,7 +36,7 @@
                 
             </div>
 
-            <div class="card">
+            <div class="card">  
                 <h3>Curso de Farmácia</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolores, eius quo odit animi explicabo ad similique mollitia, rerum ab ipsa id quaerat cumque inventore amet eaque laudantium, adipisci neque.</p>
                 
@@ -59,18 +64,15 @@
         });
     </script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
           <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
-
-
+    </script>
 </body>
 </html>
